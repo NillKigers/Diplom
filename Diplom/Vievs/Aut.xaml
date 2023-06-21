@@ -16,7 +16,7 @@
 
         <DataGrid x:Name="DGridPeople" AutoGenerateColumns="False" IsReadOnly="True" Cursor="Hand">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding IdP}" Width="100"></DataGridTextColumn>
+                <DataGridTextColumn Header="ID" Binding="{Binding IdPeople}" Width="100"></DataGridTextColumn>
                 <DataGridTextColumn Header="ФИО" Binding="{Binding FIO}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Номер телефона" Binding="{Binding NumberTel}" Width="250"></DataGridTextColumn>
                 <DataGridTemplateColumn Width="auto">
