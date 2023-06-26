@@ -38,7 +38,12 @@ namespace Diplom.Vievs
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+           
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Нажмите кнопку Хлеб для просмотра списка доступных изделий. Нажмите кнопку Клиенты что бы удостоверится в статусе заказа");
         }
     }
 }

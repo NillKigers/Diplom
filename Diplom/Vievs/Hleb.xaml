@@ -18,19 +18,10 @@
                 <DataGridTextColumn Header="Хлеб" Binding="{Binding Nazvanie}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Цена" Binding="{Binding Cena}" Width="150"></DataGridTextColumn>
                 <DataGridTextColumn Header="Дата изготовления" Binding="{Binding DataIzgotovki}" Width="300"></DataGridTextColumn>
-                <DataGridTemplateColumn Width="auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Button Content="Редактировать" Width="190" Height="40"></Button>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+                
             </DataGrid.Columns>
 
         </DataGrid>
-        <Grid Grid.Row="1" Background="#FF7F50">
-            <Button Content="Добавить" HorizontalAlignment="Left" Click="BtnAdd_Click" Width="200" Height="50" Margin="25,0,0,0" Cursor="Hand"/>
-            <Button Content="Удалить" HorizontalAlignment="Right" Click="BtnDelete_Click" Width="200" Height="50" Margin="0,0,25,0"/>
-        </Grid>
+        <Grid Grid.Row="1" Background="#FF7F50"/>
     </Grid>
 </Page>
